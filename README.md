@@ -14,7 +14,7 @@
   <p align="center">Home Page</p>
 </div>
 
-# Deploy Netflix Clone on Cloud using Jenkins - DevSecOps Project!
+# Deploying Applications on Docker and Kubernetes with Jenkins CI/CD Pipeline using AWS and DevSecOps Practices
 
 ### **Phase 1: Initial Setup and Deployment**
 
@@ -29,7 +29,8 @@
 - Clone your application's code repository onto the EC2 instance:
     
     ```bash
-    git clone https://github.com/N4si/DevSecOps-Project.git
+    git clone [https://github.com/N4si/DevSecOps-Project.git](https://github.com/Gayathrisanthurappa/Deploying-Applications-on-Jenkins-CI-CD-Pipeline-Using-AWS-and-
+DevSecOps-Practices.git)
     ```
     
 
@@ -286,7 +287,8 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/N4si/DevSecOps-Project.git'
+                git branch: 'main', url https://github.com/Gayathrisanthurappa/Deploying-Applications-on-Jenkins-CI-CD-Pipeline-Using-AWS-and-
+DevSecOps-Practices.git
             }
         }
         stage("Sonarqube Analysis "){
